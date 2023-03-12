@@ -7,11 +7,5 @@ services:
         command: python yatube_api/manage.py runserver 0.0.0.0:8000
         volumes:
             - .:/opt/project
-
         ports:
             - "8000:8000"
-#        - type: bind
-#        source: .
-#        target: /app
-
-#            - .:/app
